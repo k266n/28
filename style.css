@@ -1,0 +1,34 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+      to right,
+      rgb(192, 96, 22) 0%,
+      red 50%,
+      blue 50%,
+      rgb(27, 135, 152) 100%
+    );
+}
+.btn-success:hover{
+    animation-name: animate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes animate {
+    from{
+        box-shadow: 1px 1px 38px rgb(0, 255, 76);
+    }
+
+    
+}
+h3{
+    
+    animation-name: h3_glow;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+@keyframes h3_glow {
+    from{
+        box-shadow: 1px 1px 38px rgb(255, 255, 255);
+        
+    }
